@@ -4,9 +4,9 @@ Clean, deduplicated, **English-translated Chinese Tech, Finance, Open-Source & T
 
 Built for AI Agents (**Cursor, Claude, Windsurf, Dify, n8n**) and global developers who need reliable, low-token Chinese public market & tech intelligence.
 
-- **Live Demo & Console**: http://124.221.41.223:8080
+- **Live Demo & Console**: https://pulse.cnpulse.cn
 - **RapidAPI Marketplace**: https://rapidapi.com/liyangxiao/api/chinapulse-bilingual-china-tech-finance-sentiment-api
-- **Interactive OpenAPI Docs**: http://124.221.41.223:8080/docs
+- **Interactive OpenAPI Docs**: https://pulse.cnpulse.cn/docs
 
 ## Key Features
 
@@ -31,7 +31,7 @@ Add this to **Cursor**, **Claude Desktop**, or any MCP-compatible AI Agent using
 {
   "mcpServers": {
     "chinapulse": {
-      "url": "http://124.221.41.223:8080/mcp",
+      "url": "https://pulse.cnpulse.cn/mcp",
       "headers": {
         "X-API-Key": "cp_demo_public_readonly"
       }
@@ -44,7 +44,7 @@ Add this to **Cursor**, **Claude Desktop**, or any MCP-compatible AI Agent using
 
 ```bash
 curl -H "X-API-Key: cp_demo_public_readonly" \
-  "http://124.221.41.223:8080/v1/pulse?category=finance&lang=both&limit=5"
+  "https://pulse.cnpulse.cn/v1/pulse?category=finance&lang=both&limit=5"
 ```
 
 Need higher quotas? Subscribe on [RapidAPI](https://rapidapi.com/liyangxiao/api/chinapulse-bilingual-china-tech-finance-sentiment-api).
